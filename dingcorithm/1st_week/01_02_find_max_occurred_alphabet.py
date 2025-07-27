@@ -25,6 +25,6 @@ def find_alphabet_occurrence_array(string):
             alphabet_occurrence_array[ord(char)-ord('a')] += 1
     return alphabet_occurrence_array
 
-print("정답 = i 현재 풀이 값 =", find_max_occurred_alphabet("hello my name is dingcodingco"))
+print("정답 = i 현재 풀이 값 =", find_max_occurred_alphabet("hello my name is dingcorithm"))
 print("정답 = e 현재 풀이 값 =", find_max_occurred_alphabet("we love algorithm"))
 print("정답 = b 현재 풀이 값 =", find_max_occurred_alphabet("best of best youtube"))
